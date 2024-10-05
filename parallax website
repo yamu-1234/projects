@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.parallax {
+  /* The image used */
+  background-image: url("img_parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<p>work hard achieve your goals</p>
+
+<div class="parallax"></div>
+
+<div style="height:1000px;background-color:skyblue;font-size:36px">
+The difference between the impossible and the possible lies in a person’s determination.
+More powerful than the will to win is the courage to begin.
+Don’t be pushed by your problems; be led by your dreams.
+
+</div>
+
+</body>
+</html>
