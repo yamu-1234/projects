@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>city</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">vizag</a></li>
+      <li><a href="#">vijayawada</a></li>
+      <li><a href="#">tirupathi</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>hyderabad</h1>
+    <p>Hyderabad is the capital of the Indian state of Telangana. It is a historic city noted for its many monuments, temples, mosques and bazaars. A multitude of influences have shaped the character of the city in the last 400 years.
+
+        The city of Hyderabad was founded by the Qutb Shahi sultan Muhammad Quli Qutb Shah in 1591. It was built around the Charminar, which formed the centerpiece of the city. Hyderabad became an important trading centre for diamonds and pearls, and a centre for culture.</p>
+  </article>
+</section>
+
+</body>
+</html>
