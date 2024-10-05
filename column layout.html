@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 900px) {
+  .column  {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column  {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Mixed Column Layout</h2>
+<p>Tourist places in india</p>
+
+<div class="row">
+  <div class="column" style="background-color:yellow">
+  <h2>Tajmahal</h2>
+  <p>The Taj Mahal was commissioned by Shah Jahan in 1631, to be built in the memory of his wife Mumtaz Mahal, who died on 17 June that year while giving birth to their 14th child, Gauhara Begum.</p>
+  </div>
+  <div class="column" style="background-color:blue;">
+  <h2>araku</h2>
+  <p>Araku Valley is a hill station in Alluri Sitharama Raju district in the Indian state of Andhra Pradesh, lying 111 km west of Visakhapatnam city. It is a valley in the Eastern Ghats inhabited by different tribes, mainly Araku Tribes.
+
+Geography</p>
+  </div>
+  <div class="column" style="background-color:pink;">
+  <h2>ganga</h2>
+  <p>The river has been revered in Hindu scriptures for many millennia and continues to harbour and nourish a rich cultural heritage. In the past few decades, the river has been barricaded by several barrages and dams, keeping a head of water (depth) which lowers evaporation.</p>
+  </div>
+  <div class="column" style="background-color:green;">
+  <h2>vizag</h2>
+  <p>Visakhapatnam city has many tourist attractions such as Kailasagiri park near the sea, Visakha Museum, Indira Gandhi Zoological Park, the INS Kursura (S20) Submarine museum, City Central Park, VUDA Park, the Dolphin's Nose, and the Lighthouse.</p>
+  </div>
+</div>
+
+</body>
+</html>
